@@ -8,8 +8,11 @@
       if(age>=18){
         document.write("You are an ADULT");
       }
-      else if(age<18){
-        document.write("You are NOT an Adult");
+      else if(age>=13 || age<=17){
+        document.write("You are a TEENAGER");
+      }
+      else{
+        document.write("You are a CHILD");
       }
     </script>
   </body>
