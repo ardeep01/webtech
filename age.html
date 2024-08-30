@@ -4,18 +4,19 @@
   </head>
   <body>
     <script>
-    if (age <= 0) {
-       document.write("Invalid input");
-    }
-    else if (age >= 1 && age <= 12) {
-       document.write("You are a CHILD");
-    }
-    else if (age >= 13 && age <= 17) {
-       document.write("You are a TEENAGER");
-    }
-    else {
-       document.write("You are an ADULT");
-    }
+     let age=prompt("Enter your age (+ve):");
+      if (age <= 0) {
+        document.write("Invalid input");
+      }
+      else if (age >= 1 && age <= 12) {
+        document.write("You are a CHILD");
+      }
+      else if (age >= 13 && age <= 17) {
+        document.write("You are a TEENAGER");
+      }
+      else {
+        document.write("You are an ADULT");
+      }
     </script>
   </body>
 </html>
