@@ -1,0 +1,30 @@
+// Prompt the user to enter a day of the week
+let dayOfWeek = prompt("Please enter a day of the week:").toLowerCase();
+
+// Use a switch statement to display a message based on the day
+switch(dayOfWeek) {
+    case 'monday':
+        alert("Start of the work week! Let's get things done.");
+        break;
+    case 'tuesday':
+        alert("It's Tuesday! Keep up the good work.");
+        break;
+    case 'wednesday':
+        alert("It's Hump Day! Halfway through the week.");
+        break;
+    case 'thursday':
+        alert("It's Thursday! The weekend is almost here.");
+        break;
+    case 'friday':
+        alert("It's Friday! The weekend is here, time to relax!");
+        break;
+    case 'saturday':
+        alert("It's Saturday! Enjoy your weekend.");
+        break;
+    case 'sunday':
+        alert("It's Sunday! Rest up for the week ahead.");
+        break;
+    default:
+        alert("That's not a valid day of the week. Please try again.");
+        break;
+}
