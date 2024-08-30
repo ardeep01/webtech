@@ -3,17 +3,19 @@
     <title>age</title>
   </head>
   <body>
-    <script type="text/javascript">
-      let age=prompt("Enter your age:");
-      if(age>=18){
-        document.write("You are an ADULT");
-      }
-      else if(age>=13 && age<=17){
-        document.write("You are a TEENAGER");
-      }
-      else{
-        document.write("You are a CHILD");
-      }
+    <script>
+    if (age <= 0) {
+       document.write("Invalid input");
+    }
+    else if (age >= 1 && age <= 12) {
+       document.write("You are a CHILD");
+    }
+    else if (age >= 13 && age <= 17) {
+       document.write("You are a TEENAGER");
+    }
+    else {
+       document.write("You are an ADULT");
+    }
     </script>
   </body>
 </html>
