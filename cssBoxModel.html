@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Box Model!</title>
+    <style>
+      html,body{
+      
+        display: flex;
+        justify-content: center;
+        
+      }
+      #margins{
+        height:900px;
+        width:900px;
+        background-color:rgb(250,237,205);
+        position:fixed;
+        margin-top:180px;
+      }
+      #borders{
+        height:600px;
+        width:600px;
+        background-color:rgb(212,163,115);
+        position:fixed;
+        margin-left:150px;
+        margin-top:115px;
+        
+      }
+      #paddings{
+        height:500px;
+        width:500px;
+        background-color:rgb(233,237,201);
+        position:fixed;
+        margin-left:50px;
+        margin-top:15px;
+        
+      }
+      #contents{
+        height:200px;
+        width:200px;
+        background-color:rgb(162,210,255);
+        position:fixed;
+        margin-left:150px;
+        margin-top:115px;
+      }
+      h1{
+        text-decoration:black wavy underline;
+        font-size:70px;
+        position:relative;
+      }
+      p{
+        margin:0px;
+        padding:0px;
+        border:0px;
+        font-size:33px;
+        text-align:center;    
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Box Model!</h1>
+    <div id="margins"><p>*Margin*</p>
+      <div id="borders"><p>*Border*</p>
+        <div id="paddings"><p>*Padding*</p>
+          <div id="contents"><p>*Content*</p></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
